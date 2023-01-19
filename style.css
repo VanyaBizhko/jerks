@@ -1,0 +1,334 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: 0;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+
+body{
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    list-style: none;
+}
+
+.header{
+ display: flex;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 60px;
+}
+
+.logo{
+    
+    
+
+}
+.contacts{
+ margin-right: 15px;
+font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.contacts:hover{
+    color: #0911E0;
+}
+.order{
+font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -left: 27px;
+
+    color: #FFFFFF;
+    width: 172px;
+        height: 50px;
+       
+    
+        background: linear-gradient(180deg, #0911E0 19.82%, rgba(146, 140, 6, 0.68) 78.26%);
+
+}
+.order:hover {
+    color: #0911E0;
+    background: #ffffff;
+}
+.header_links{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.jerks{
+    position: absolute;
+        width: 742px;
+        height: 307px;
+        top: 32px;
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 252px;
+        line-height: 307px;
+        display: flex;
+        
+        
+    
+        color: #FFFFFF;
+}
+.ukr{
+    width: 854px;
+        height: 455px;
+        
+    
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 408px;
+        line-height: 455px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+    
+        color: rgba(255, 255, 255, 0.26);
+}
+.hero_txt{
+    width: 663px;
+        height: 37px;
+        left: 388px;
+        top: 702px;
+    
+        font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 37px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        color: #FFFFFF;
+}
+.menu_header{
+    font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 84px;
+        line-height: 102px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 276px;
+    
+        color: #FFFFFF;
+}
+
+
+
+.slider_move{
+    margin-left: auto;
+}
+.slider{
+    margin-left: auto;
+    /* margin-right: auto; */
+}
+.slider__item {
+
+    overflow: hidden;
+   
+
+}
+.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+   
+}
+.slick-dots button {
+     
+        background: #D9D9D9;
+        border: none;
+        border-radius: 50%;
+        font-size: 0;
+        width: 12px;
+        height: 12px;
+        cursor: url('../images/cursor-pointer.svg'), pointer;
+
+    
+
+}
+
+.slick-active button{
+    
+        background: #84A178;
+    
+}
+ .slick-arrow {
+     font-size: 0;
+     width: 50px;
+     height: 50%;
+     position: absolute;
+     cursor: url('../images/cursor-pointer.svg'), pointer;
+
+ }
+
+ .slick-next {
+     top: 25%;
+     right: 0;
+     z-index: 10;
+     background-color: transparent;
+     border-color: transparent;
+     cursor: url('../images/cursor-pointer.svg'), pointer;
+
+ }
+
+ .slick-prev {
+     left: 0px;
+     top: 25%;
+     z-index: 10;
+     background-color: transparent;
+     border-color: transparent;
+     cursor: url('../images/cursor-pointer.svg'), pointer;
+ }
+ .reviews__photo{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .name{
+    font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 47px;
+        line-height: 52px;
+        display: flex;
+        align-items: center;
+        margin-top: 43px;
+    margin-left: 100px;
+        color: #FFFFFF;
+ }
+ .price{
+    font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 37px;
+        /* identical to box height */
+        margin-top: 15px;
+    margin-left: 100px;
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+        margin-bottom: 30px;
+ }
+
+
+
+
+ .footer{
+    margin-top: 150px;
+    padding-bottom: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+ }
+ .tel{
+    font-family: 'Comfortaa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 37px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+        margin-left: 138px;
+    
+        color: #FFFFFF;
+ }
+ .tel:hover{
+    color: #0911E0;
+ }
+ .footer-contacts__svg{
+    fill: #AFB1B8;
+    cursor: pointer;
+ }
+  .footer-contacts__svg:hover {
+      fill: #0911E0;
+  }
+ .footer-contacts{
+    display: flex;
+    gap: 35px;
+    margin-left: 138px;
+    margin-top: 30px;
+ }
+ .delivery{
+    font-family: 'Comfortaa';
+        font-style: normal;
+    max-width: 500px;
+    font-style: normal;
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 37px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+ }
+ .footer_wrap{
+    display: flex;
+    flex-wrap: wrap;
+ }
